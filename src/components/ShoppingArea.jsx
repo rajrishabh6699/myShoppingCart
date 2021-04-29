@@ -5,7 +5,7 @@ import {CartContext} from '../CartContext';
 
 
 const ShoppingArea = (props)=>{
-    let {actualData, items} = useContext(CartContext);
+    let {actualData} = useContext(CartContext);
     let [data, setData] = actualData;
     return(
         <div>

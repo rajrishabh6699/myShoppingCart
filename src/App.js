@@ -10,9 +10,6 @@ function App() {
 
   return (
     <CartProvider>
-      <div className="cart">
-        <Cart />
-      </div>
       <div className="main-area">
         <div className="size-filter">
           <SizeFilter />
@@ -22,9 +19,12 @@ function App() {
             <OrderByFilter />
           </div>
           <div className="shopping-area">
-          <ShoppingArea />
+            <ShoppingArea />
           </div>
         </div>
+        <div className="cart">
+            <Cart />
+          </div>
       </div>
     </CartProvider>
   );

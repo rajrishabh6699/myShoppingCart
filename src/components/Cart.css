@@ -1,0 +1,35 @@
+.checkout-cart-container{
+    display: flex;
+}
+
+
+.cart-container{
+    display: flex;
+    background-color:#1C1B20;;
+    height:70px;
+    width:75px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-container .items {
+    padding-top: 20px;
+    margin-left: -15px;
+}
+
+.items span{
+    bottom: 12px;
+    padding: 2px 4px .2px;
+    background-color: #e6bd08;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: .9rem;
+    color:black;
+}
+
+.cart-container:hover{
+    cursor: pointer;
+}
+
+
+

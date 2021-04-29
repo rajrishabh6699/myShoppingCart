@@ -1,4 +1,22 @@
 .order-by-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.order-by-options{
+    margin-right: 150px;
+}
+
+.order-by-options select{
+    border: 0.5px solid lightgray;
+    background-color: #fff;
+    margin-left: 20px;
+    width:150px;
+    height: 30px;
+}
+
+.order-by-data{
+    font-size: 14px;
+    font-style: 200;
 }

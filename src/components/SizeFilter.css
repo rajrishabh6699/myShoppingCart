@@ -1,0 +1,44 @@
+.size-filter-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.select-container{
+    display: flex;
+    flex-wrap: wrap;
+    width:200px;
+    margin-left: 80px;
+}
+
+.select-container .select-size{
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color: #e2e2e2;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 4px;
+    font-size: .76rem;
+    font-weight: 500;
+    margin: 3px;
+}
+
+.select-container .select-size p{
+    font-size: 10px;
+    text-align: center;
+    border:none;
+    background-color: #e2e2e2;;
+    font-weight: 500;
+}
+
+.check-p:hover{
+    cursor: pointer;
+}
+
+.size-title{
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    margin-left: 60px;
+}

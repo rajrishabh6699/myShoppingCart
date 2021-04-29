@@ -4,7 +4,7 @@ import {CartContext} from '../CartContext';
 
 const OrderByFilter = ()=>{
     
-    let {actualData, items} = useContext(CartContext);
+    let {actualData} = useContext(CartContext);
     let [data, setData] = actualData;
     let [sort, setSort] = useState("");
 
@@ -25,8 +25,8 @@ const OrderByFilter = ()=>{
 
     return(
         <div className="order-by-container">
-            <div> {data.length} product(s) found</div>
-            <div>Order By: 
+            <div className="order-by-data"> {data.length} Product(s) found</div>
+            <div className="order-by-options">Order By: 
                 <select value={sort} onChange={handleOrderBy}>
                     <option value="">Select</option>
                     <option value="lowest">Lowet to Highest</option>
