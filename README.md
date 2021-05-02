@@ -1,4 +1,4 @@
-# live at
+# Live at
 https://rajrishabh6699.github.io/myShoppingCart/
 
 # Getting Started with Create React App
